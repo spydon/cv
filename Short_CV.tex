@@ -8,9 +8,11 @@
 \firstname{Lukas}
 \familyname{Klingsbo}
 \title{Software Developer}
+\homepage{http://lukas.fyi}
+%\newline \small{\texttt{\textbf{Homepage: {\color{web}\weblink{http://lukas.fyi}}}}}}
 %\title{BCS student of Uppsala \newline \small{\texttt{\textbf{Homepage: {\color{web}\weblink{http://www.mindlevel.net}}}}}}
 %\address{Office 719 SEO\\ 851 S. Morgan St.}{Chicago, IL}
-\extrainfo{\newline \color{red}Don't miss the other side!}
+\extrainfo{\newline \color{red}Don't miss the other page$\rightarrow$}
 \phone{+46737-42 43 45}
 \email{lukas.klingsbo@gmail.com}
 %\photo[64pt][2pt]{./lukas.jpg}
@@ -34,47 +36,64 @@
 \begin{document}
 \maketitle
 \section{\textbf{Education}}
-\cventry{2009--2015 (Expected)}{\textbf{Bachelor and Master of Computer Science}}{\newline University of Uppsala}{Sweden}{}{}
+\cventry{2013--2015 (Expected)}{\textbf{Master of Computer Science}}{\newline University of Uppsala}{Sweden}{}{}
+\cventry{2009--2012}{\textbf{Bachelor of Computer Science}}{\newline University of Uppsala}{Sweden}{}{}
+
 \section{\textbf{Experience}}
 \subsection{\textbf{IT Work}}
 \cventry{2014 -- 2015}{\textbf{Developer}}{}{}{Ericsson and SICS}
-{Building an information centric network in Erlang as a backend for a live streaming android application which we also built.}
+{Building an information centric network in Erlang as a backend for a live streaming android application which we also built. 
+Deployed at the Skiing World Championship in Falun 2015.}
 \cventry{2013}{\textbf{Lead Developer}}{}{}{London Sales (Australia)}
-{Coding a tool for integrating their systems. Also coded an app, dashboard, backend and CRM for a POS. Mostly GWT, Java and .net.}
+{Developed a large integrating service for their systems. Also; an app, dashboard and CRM back-end. Mostly GWT, Java and .net.}
 \cventry{2012}{\textbf{Developer}}{}{}{Kivra}
 {Developing a massive online post system, mostly in Erlang.}
 \cventry{2005 -- 2010}{\textbf{Tech/Computer support}}{}{}{}
 {Both phone support and home visits.}
 \cventry{2007 -- 2013}{\textbf{Websites}}{}{}{}
 {Designing and developing a lot of websites for smaller companies and stores, for example the websites of the stores \begin{math}20m^2\end{math} skor and Cri Cri.}
-\cventry{Aug 2008 -- Jan 2011}{\textbf{Lead Developer}}{}{}{RivCalc.com}
+\cventry{2008 -- 2011}{\textbf{Lead Developer}}{}{}{RivCalc.com}
 {A website written in GWT (Java syntax) to make mathematical calculations for a web-based game. Financed through google adsense.}
 \newpage
-\subsection{\textbf{Some free time projects}}
+
+\vspace*{-2\baselineskip}
+\subsection{\textbf{Thesis}}
+\cventry{}{\textbf{Master Thesis}}{Uprise}{Uppsala}{}{
+Designing a Security Management Layer for CDN Assets}
+\cventry{}{\textbf{Bachelor Thesis}}{Kivra}{Stockholm}{}{
+NoSQL: Moving from MapReduce Batch Jobs to Event-Driven Data Collection}
+
+\subsection{\textbf{Some free time projects (More on GitHub)}}
 \cventry{}{\textbf{MindLevel}}{}{}{}{
-A community site written from scratch in GWT, see \url{mindlevel.net} (Still early Beta)}
+A community site written from scratch in GWT}
+\cventry{}{\textbf{Fork-Plate-Knife}}{}{}{}{
+Small React (javascript) game made on the Uprise Game-Jam hackathon}
 \cventry{}{\textbf{Uratool}}{}{}{}{
 A distributed collaborative coding editor written in Erlang.}
-\cventry{}{\textbf{TermOS}}{}{}{}{
-A not yet released web based window handler and command interpreter written in GWT (Java syntax).}
 \cventry{}{\textbf{Esiade}}{}{}{}{
-An Evolutionary simulator in a dynamic environment. Proof of concept of genetic programming and machine learning. The result can be seen on mindlevel.net/esiade.}
+An Evolutionary simulator in a dynamic environment. Proof of concept of genetic programming and machine learning.}
 
+\renewcommand{\cvcomputer}[2]{\cvline{#1}{\small#2}}
 \section{\textbf{Computer skills}}
-\cvcomputer{OS}{Linux, Solaris, Windows, Mac OS X}{}{}
-\cvcomputer{Programming}{Java, JavaEE, Erlang, Scala, GWT, Javascript, C, Python, SML, Bash}{}{}
-\cvcomputer{Databases}{MySql, MariaDB, Riak, T-SQL}{}{}
-\cvcomputer{Web}{GWT, HTML5, CSS3}{}{}
-\cvcomputer{Revision control}{Git,\newline SVN}{}{}
-\cvcomputer{Editors}{Vim, IntelliJ IDEA, Eclipse}{}{}
-\cvcomputer{Typography}{\LaTeX, Office}{}{}
-\cvcomputer{Other}{Pentesting,\newline Data recovery,\newline Virus removal,\newline Hardware replacement}{}{}
+\cvcomputer{OS}{Linux, Solaris, Windows, Mac OS X}
+\cvcomputer{Programming}{Java, Erlang, Scala, GWT, Javascript, C, Python, Haskell, Bash}
+\cvcomputer{Databases}{MySql, MariaDB, MongoDB, Redis, Riak, T-SQL}
+\cvcomputer{Rev. control}{Git, SVN}
+\cvcomputer{Editors}{Vim, IntelliJ IDEA, Eclipse}
+\cvcomputer{Typography}{\LaTeX, Office}
+\cvcomputer{Other}{Pentesting,\newline 
+                   System Administration,\newline 
+                   Microcontroller Programming,\newline 
+                   Data recovery,\newline 
+                   Virus removal,\newline 
+                   Hardware replacement}
 
-\section{\textbf{Fairly irrelevant experience}}
+\section{\textbf{Other}}
 \subsection{\textbf{Details can be shown on request}}
-\cventry{2006 -- Present}{\textbf{20+ Commisions of Trust}}{}{}{}{For example the Uppsala student unions IT council}
-\cventry{2004 -- 2012}{\textbf{3 non IT jobs}}{}{}{}{}
-\cventry{}{\textbf{Languages}}{}{}{}{Speaking English and Swedish fluently}
+\cventry{2006 -- Present}{\textbf{20+ Commisions of Trust}}{}{}{}{
+Example: publicly elected board member of Uppsala Student Union}
+\cventry{}{\textbf{Languages}}{}{}{}{English Fluently (Lived in Australia and England)\newline Swedish Mother Tounge}
+\cventry{}{\textbf{Random Fact}}{}{}{}{I have a small Fork Bomb (Bash) tattoed on my right arm}
 %\cventry{}{\textbf{8 references}}{}{}{}{}
 
 \end{document}
